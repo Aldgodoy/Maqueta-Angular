@@ -1,13 +1,18 @@
-div{
-    background: #937dc2;
-    background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
-    background: -webkit-linear-gradient(
-      left,
-      #937dc2 0%,
-      #c689c6 48%,
-      #c689c6 100%
-    );
-    background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
-    --bs-navbar-brand-margin-end: 0rem;
-    --bs-navbar-padding-y: 0rm;
-  }
+.navbar.navbar-expand-lg.bg-light {
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  --bs-navbar-brand-margin-end: 0rem;
+  --bs-navbar-padding-y: 0rm;
+}
+
+app-social {
+  float: right;
+  width: 0.625rem;
+}

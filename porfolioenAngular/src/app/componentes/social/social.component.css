@@ -1,0 +1,63 @@
+/* sigueme */
+h3.list-group-heading {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.375rem;
+  letter-spacing: 0.138rem;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 0.625rem;
+}
+
+/* iconos de redes sociales */
+.list-group.list-group-horizontal {
+  background: none;
+  width: 1.375rem;
+}
+/* instagram */
+a.fa-brands.fa-instagram.fa-2x {
+  text-decoration: none;
+  color: #212529;
+  width: 1.375rem;
+}
+
+a.fa-brands.fa-instagram.fa-2x:hover {
+  color: #e8a0bf;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+/* linkedin */
+a.fa-brands.fa-linkedin-in.fa-2x:hover {
+  color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+a.fa-brands.fa-linkedin-in.fa-2x {
+  text-decoration: none;
+  color: #212529;
+  width: 1.375rem;
+}
+
+a.fa-brands.fa-github.fa-2x:hover {
+  color: #fcc5c0;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+
+a.fa-brands.fa-github.fa-2x {
+  text-decoration: none;
+  color: #212529;
+  width: 1.375rem;
+}
+
+i.fa-solid.fa-user-lock.fa-2x:hover {
+  color: #83638c;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+
+li.list-group-item {
+  --bs-list-group-bg: transparent;
+  --bs-list-group-border-color: transparent;
+}
