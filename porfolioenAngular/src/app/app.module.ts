@@ -7,9 +7,10 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { LogoArgProgComponent } from './componentes/logo-arg-prog/logo-arg-prog.component';
 import { SocialComponent } from './componentes/social/social.component';
 import { BannerComponent } from './componentes/banner/banner.component';
+import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, LogoArgProgComponent, SocialComponent, BannerComponent,],
+  declarations: [AppComponent, HeaderComponent, LogoArgProgComponent, SocialComponent, BannerComponent, AcercaDeComponent,],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
