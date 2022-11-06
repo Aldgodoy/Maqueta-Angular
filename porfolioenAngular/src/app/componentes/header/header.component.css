@@ -16,3 +16,15 @@ app-social {
   float: right;
   width: 0.625rem;
 }
+
+.form-control-plaintext:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #c689c691;
+  outline: 0;
+  box-shadow: 0 0 0 0.063rem #c689c691;
+}
+.form-control:focus {
+  border-color: #c689c691;
+  box-shadow: 0 0 0 0.063rem #c689c691;
+}
