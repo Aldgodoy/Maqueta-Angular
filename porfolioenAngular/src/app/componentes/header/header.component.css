@@ -1,4 +1,4 @@
-.navbar.navbar-expand-lg.bg-light {
+.navbar.navbar-expand-sm.bg-light.justify-content-between {
   background: #937dc2;
   background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
   background: -webkit-linear-gradient(
