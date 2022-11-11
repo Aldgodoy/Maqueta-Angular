@@ -8,12 +8,14 @@ h3.list-group-heading {
   font-weight: 700;
   font-style: italic;
   padding-top: 0.625rem;
+  margin-left: -20 rem;;
 }
 
 /* iconos de redes sociales */
 .list-group.list-group-horizontal {
   background: none;
   width: 1.375rem;
+  padding-top: 1.625rem
 }
 /* instagram */
 a.fa-brands.fa-instagram.fa-2x {
