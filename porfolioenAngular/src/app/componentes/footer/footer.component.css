@@ -1,0 +1,20 @@
+.row {
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+}
+footer {
+  color: aliceblue;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 2px -2px 5px #999;
+  font-family: Verdana, Geneva, sans-serif;
+}
