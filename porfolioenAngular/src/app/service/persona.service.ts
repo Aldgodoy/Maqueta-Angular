@@ -12,6 +12,6 @@ export class PersonaService {
   constructor(private http: HttpClient) {}
   //  observable se usa en angular para hacer peticiones asincronas
   public getPersona(): Observable<persona> {
-    return this.http.get<persona>(this.URL + 'traer/perfil'); //puede pasar que enfrente de traer vaya otra barra; 
+    return this.http.get<persona>(this.URL + 'traer/perfil'); //puede pasar que enfrente de traer vaya otra barra;
   }
 }
