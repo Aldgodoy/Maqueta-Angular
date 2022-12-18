@@ -8,14 +8,14 @@ h3.list-group-heading {
   font-weight: 700;
   font-style: italic;
   padding-top: 0.625rem;
-  margin-left: -20 rem;;
+  margin-left: -20 rem;
 }
 
 /* iconos de redes sociales */
 .list-group.list-group-horizontal {
   background: none;
   width: 1.375rem;
-  padding-top: 1.625rem
+  padding-top: 1.625rem;
 }
 /* instagram */
 a.fa-brands.fa-instagram.fa-2x {
@@ -53,10 +53,16 @@ a.fa-brands.fa-github.fa-2x {
   width: 1.375rem;
 }
 
-i.fa-solid.fa-user-lock.fa-2x:hover {
+a.fa-solid.fa-user-lock.fa-2x:hover {
   color: #83638c;
   transition: transform 0.2s ease-in-out;
   transform: scale(1.25);
+}
+
+a.fa-solid.fa-user-lock.fa-2x {
+  text-decoration: none;
+  color: #212529;
+  width: 1.375rem;
 }
 
 li.list-group-item {
