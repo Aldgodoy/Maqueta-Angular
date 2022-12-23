@@ -7,7 +7,6 @@ import { LogoArgProgComponent } from './componentes/logo-arg-prog/logo-arg-prog.
 import { SocialComponent } from './componentes/social/social.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
-import { ExperienciaLabComponent } from './componentes/experiencia-lab/experiencia-lab.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HSskillsComponent } from './componentes/hsskills/hsskills.component';
@@ -18,6 +17,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { interceptorProvider } from './service/interceptor-service';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,13 +26,13 @@ import { interceptorProvider } from './service/interceptor-service';
     SocialComponent,
     BannerComponent,
     AcercaDeComponent,
-    ExperienciaLabComponent,
     EducacionComponent,
     HSskillsComponent,
     ProyectosComponent,
     FooterComponent,
     HomeComponent,
     LoginComponent,
+    ExperienciaComponent,
   ],
   imports: [
     BrowserModule,
