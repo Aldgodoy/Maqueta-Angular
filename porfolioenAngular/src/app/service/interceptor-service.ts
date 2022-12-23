@@ -9,13 +9,12 @@ import { Observable } from 'rxjs';
 import { TokenService } from './token.service';
 
 @Injectable({
-    providedIn: 'root'
+  providedIn: 'root',
 })
-
 export class InterceptorService {
   constructor(private tokenService: TokenService) {}
 
-  intercep(
+  intercept(
     req: HttpRequest<any>,
     next: HttpHandler
   ): Observable<HttpEvent<any>> {
@@ -23,7 +22,7 @@ export class InterceptorService {
     const token = this.tokenService.getToken();
     if (token != null) {
       intReq = req.clone({
-        headers: req.headers.set('Authorization', 'Bearer ' + token),
+        headers: req.headers.set('Authorization', 'Bearer' + token),
       });
     }
     return next.handle(intReq);
@@ -32,8 +31,8 @@ export class InterceptorService {
 
 export const interceptorProvider = [
   {
-    provider: HTTP_INTERCEPTORS,
-    userClass: InterceptorService,
+    provide: HTTP_INTERCEPTORS,
+    useClass: InterceptorService,
     multi: true,
   },
 ];
